@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public/GYMATE-MAIN",
+    "public": "public/index.html",
     "ignore": [
       "firebase.json",
       "**/.*",
