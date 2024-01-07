@@ -5,7 +5,7 @@ import { getFirestore } from "firebase/firestore";
 const firebaseConfig = {
   apiKey: "AIzaSyAui9fjs71w8y8MQX-w0qYtxGyaOGQquBs",
   authDomain: "gymate-gym.firebaseapp.com",
-  projectId: "gymate-gym",
+  projectId: " nextlevelfitnessgy",
   storageBucket: "gymate-gym.appspot.com",
   messagingSenderId: "1086911363831",
   appId: "1:1086911363831:web:8dac101ceb861e5c71b1f2",
