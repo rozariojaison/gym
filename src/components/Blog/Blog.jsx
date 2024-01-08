@@ -28,11 +28,11 @@ function Blog() {
           <div className="flex gap-6 w-full mt-[5rem] md1200:justify-center flex-wrap">
             <BlogBox
               bgClass="box1Bg"
-              date="22.03.2022"
-              title="Yoga For Everyone in 2023"
-              description="This is program designed to make the practice of yoga beneficial for people of all ages, abilities, and backgrounds. "
+              date="28.12.2023"
+              title="New Year offer"
+              description="Grab the New Year offer before it ends #nextlevelfitness. "
             />
-            <BlogBox
+          {/*<BlogBox
               bgClass="box2Bg"
               date="13.09.2022"
               title="Getting Back Into CrossFit After Vacation"
@@ -43,7 +43,7 @@ function Blog() {
               date="28.06.2022"
               title="Meet Fitness Ambassador Grace"
               description="Get to know Grace, a fitness enthusiast and dedicated ambassador who is passionate about helping others reach their fitness goals."
-            />
+  />*/}
           </div>
         </div>
       </section>

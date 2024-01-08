@@ -1,18 +1,9 @@
 import BlogBox from "../components/BlogBox/BlogBox";
 import Footer from "../components/Footer/Footer";
-import Img1 from "../images/blogpage/1.jpg";
-import Img2 from "../images/blogpage/2.jpg";
-import Img3 from "../images/blogpage/3.jpg";
-import Img4 from "../images/blogpage/4.jpg";
-import Img5 from "../images/blogpage/5.jpg";
-import Img6 from "../images/blogpage/6.jpg";
-import Img7 from "../images/blogpage/7.jpg";
+import Img1 from "../images/blogpage/1.png";
+
 import Recent1 from "../images/blogpage/recent1.jpg";
-import Recent2 from "../images/blogpage/recent2.jpg";
-import Recent3 from "../images/blogpage/recent3.jpg";
-import Recent4 from "../images/blogpage/recent4.jpg";
-import Recent5 from "../images/blogpage/recent5.jpg";
-import Recent6 from "../images/blogpage/recent6.jpg";
+
 
 function Blog() {
   return (
@@ -28,7 +19,7 @@ function Blog() {
           {/* blog */}
           <div className="flex flex-col gap-28">
             <BlogBox img={Img1} title="Yoga For Everyone in 2022" />
-            <BlogBox
+           {/* <BlogBox
               img={Img2}
               title="Getting Back Into CrossFit After Vacation"
             />
@@ -45,7 +36,7 @@ function Blog() {
             <BlogBox
               img={Img7}
               title="Give your fitness a boost with our new gym challenge"
-            />
+            /> */}
           </div>
 
           {/* sidebar */}
@@ -119,6 +110,7 @@ function Blog() {
               </ul>
             </div>
             {/* recent posts */}
+            
             <div className="flex flex-col bg-[#f8f8f8] my-[35px] p-[30px]">
               <p className="text-[18px] text-black font-bold mb-5">
                 Recent Posts
@@ -130,73 +122,14 @@ function Blog() {
                   <img src={Recent1} alt="recent_img" className="w-[10rem]" />
                   <div className="flex flex-col gap-4 justify-center">
                     <p className="text-[14px] text-[#646464] font-medium">
-                      March 22, 2022
+                      28 /  12 /  2023
                     </p>
                     <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
-                      Yoga For Everyone in 2022
+                      New Year offer
                     </p>
                   </div>
                 </div>
-                {/*  */}
-                <div className="flex gap-8">
-                  <img src={Recent2} alt="recent_img" className="w-[10rem]" />
-                  <div className="flex flex-col gap-4 justify-center">
-                    <p className="text-[14px] text-[#646464] font-medium">
-                      March 22, 2022
-                    </p>
-                    <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
-                      Getting Back Into CrossFit
-                    </p>
-                  </div>
-                </div>
-                {/*  */}
-                <div className="flex gap-8">
-                  <img src={Recent3} alt="recent_img" className="w-[10rem]" />
-                  <div className="flex flex-col gap-4 justify-center">
-                    <p className="text-[14px] text-[#646464] font-medium">
-                      March 22, 2022
-                    </p>
-                    <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
-                      Meet Fitness Abassador Grace
-                    </p>
-                  </div>
-                </div>
-                {/*  */}
-                <div className="flex gap-8">
-                  <img src={Recent4} alt="recent_img" className="w-[10rem]" />
-                  <div className="flex flex-col gap-4 justify-center">
-                    <p className="text-[14px] text-[#646464] font-medium">
-                      March 22, 2022
-                    </p>
-                    <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
-                      The best are European Meditation Practitioner
-                    </p>
-                  </div>
-                </div>
-                {/*  */}
-                <div className="flex gap-8">
-                  <img src={Recent5} alt="recent_img" className="w-[10rem]" />
-                  <div className="flex flex-col gap-4 justify-center">
-                    <p className="text-[14px] text-[#646464] font-medium">
-                      March 22, 2022
-                    </p>
-                    <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
-                      Learn Boxing With Our Trainer John
-                    </p>
-                  </div>
-                </div>
-                {/*  */}
-                <div className="flex gap-8">
-                  <img src={Recent6} alt="recent_img" className="w-[10rem]" />
-                  <div className="flex flex-col gap-4 justify-center">
-                    <p className="text-[14px] text-[#646464] font-medium">
-                      March 22, 2022
-                    </p>
-                    <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
-                      How To Get Lean For The Summer
-                    </p>
-                  </div>
-                </div>
+               
               </div>
             </div>
             {/* popular tags */}
@@ -235,7 +168,7 @@ function Blog() {
             {/* banner */}
             <div className="blog-banner w-full h-[56rem] relative">
               <p className="absolute text-[34px] font-bold uppercase top-16 left-10 z-[2]">
-                gymat
+                NLF
               </p>
               <span className="banner-shape top-14 left-0 z-[1] bg-white absolute w-[18rem] h-[60px]"></span>
               <div className="text-white flex flex-col absolute top-[10rem] left-10">
