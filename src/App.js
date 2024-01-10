@@ -27,8 +27,10 @@ function App() {
   return (
     <>
       <AuthContextProvider>
-        <Navbar />
+      
         <Routes>
+        <Navbar />
+
           <Route path="/" element={<Home />} />
           <Route path="contact" element={<Contact />} />
           <Route path="login" element={<Login />} />
