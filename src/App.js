@@ -9,6 +9,7 @@ import { AuthContextProvider } from "./context/AuthContext";
 import Classes from "./Pages/Classes";
 import Price from "./Pages/Price";
 import Blog from "./Pages/Blog";
+import { Link } from 'react-router-dom';
 
 import Gallery from "./Pages/Gallery/Gallery";
 import GalleryPage1 from "./Pages/Gallery/GalleryPage1";
@@ -26,13 +27,14 @@ import Sunday from "./Pages/Schedule/Sunday";*/
 function App() {
   return (
     <>
-      <AuthContextProvider>
+     
+    
       <Navbar />
         <Routes>
       
 
           <Route path="/" element={<Home />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<SignUp />} />
           <Route path="classes" element={<Classes />} />
@@ -55,7 +57,8 @@ function App() {
             <Route path="page-2" element={<GalleryPage2 />} />
           </Route>
         </Routes>
-      </AuthContextProvider>
+      
+
    
     </>
   );
