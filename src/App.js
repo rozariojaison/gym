@@ -4,7 +4,7 @@ import Login from "./Pages/Login";
 import SignUp from "./Pages/SignUp";
 import Navbar from "./components/Nav/Navbar";
 
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { AuthContextProvider } from "./context/AuthContext";
 import Classes from "./Pages/Classes";
 import Price from "./Pages/Price";
@@ -27,20 +27,19 @@ import Sunday from "./Pages/Schedule/Sunday";*/
 function App() {
   return (
     <>
-     
-    
-      <Navbar />
+        <AuthContextProvider>
+       <Navbar />  
         <Routes>
       
 
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="login" element={<Login />} />
-          <Route path="signup" element={<SignUp />} />
-          <Route path="classes" element={<Classes />} />
-          <Route path="pricing" element={<Price />} />
-          <Route path="blog" element={<Blog />} />
-          <Route path="about" element={<About />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/classes" element={<Classes />} />
+          <Route path="/pricing" element={<Price />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/about" element={<About />} />
 
          {/* <Route path="schedule" element={<Schedule />}>
             <Route path="monday" element={<Monday />} />
@@ -58,7 +57,7 @@ function App() {
           </Route>
         </Routes>
       
-
+        </AuthContextProvider>
    
     </>
   );
