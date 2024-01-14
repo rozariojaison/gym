@@ -21,7 +21,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-//const perf = getPerformance(app);
+const perf = getPerformance(app);
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
