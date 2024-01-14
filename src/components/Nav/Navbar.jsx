@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Logo from "../../images/logo/logo.jpg";
 import NavList from "../Nav/NavList";
-import { Link } from "react-router-dom";
+import {BrowserRouter, Route, Link } from "react-router-dom";
 import LogoSide from "../../images/logo/logo-footer.jpg";
 import SideImg1 from "../../images/sidebar/1.jpg";
 import SideImg2 from "../../images/sidebar/2.jpg";
@@ -47,7 +47,6 @@ function Navbar() {
   const sideBar = () => {
     setSideBar(!sidebar);
   };
-
   // hamburger menu
   const hamburgerMenu = () => {
     setHamburger(!hamburger);
@@ -55,12 +54,13 @@ function Navbar() {
 
   return (
     <>
-    <Navbar sticky={sticky} />
+      
       <nav
         className={`flex flex-row bg-transparent items-center justify-between py-8 px-12  fixed top-0 left-0 right-0 w-full z-50 ${
           sticky ? "shadow-xl !bg-black" : ""
         }`}
       >
+        
         <Link to="/">
           <img
             src={Logo}
@@ -86,7 +86,7 @@ function Navbar() {
                 onClick={hamburgerMenu}
                 className="fa-solid fa-xmark text-[#ebca34] text-[3.3rem] cursor-pointer self-end"
               ></i>
-
+              
               {/* links */}
               <ul className="text-center flex flex-col gap-10 absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-white">
                 <li onClick={hamburgerMenu}>
@@ -114,8 +114,8 @@ function Navbar() {
                     to="/schedule/monday"
                   >
                     Schedule
-            </Link>
-            </li>*/}
+                 </Link>
+               </li>*/}
                 <li onClick={hamburgerMenu}>
                   <Link
                     onClick={() => window.top(0, 0)}
@@ -162,8 +162,9 @@ function Navbar() {
                   </Link>
                 </li>
               </ul>
+              
             </div>
-
+            
             {/* sidebar */}
 
             <div>
@@ -303,6 +304,7 @@ function Navbar() {
             </Link>
           </div>
         </div>
+        
       </nav>
     </>
   );
