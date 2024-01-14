@@ -7,6 +7,7 @@ import {
   onAuthStateChanged,
 } from "firebase/auth";
 import { setDoc, doc } from "firebase/firestore";
+import { app,db } from "firebase/firestore";
 
 const AuthContext = createContext();
 
