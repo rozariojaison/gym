@@ -115,12 +115,13 @@ function Login() {
 
         {/* map */}
         /*<iframe
+          
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3886.9685038637863!2d77.6485971!3d13.0376768!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17472d94fd1b%3A0x181154c220fe169d!2sNext%20Level%20Fitness!5e0!3m2!1sen!2sin!4v1704538898405!5m2!1sen!2sin" 
           allowFullScreen=""
           loading="lazy"
           samesite="Strict"
           title="map"
-          style={{ width: "100%", height: "45rem", border: "0px" }}
+          style={{ width: "100%", height: "45rem", border: "0px",background: "black" }}
         ></iframe>
         
         <Footer />
