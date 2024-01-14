@@ -6,7 +6,7 @@ function AboutCarts() {
       {cardList.map((card, id) => (
         <div
           key={id}
-          className="flex flex-col cursor-pointer bg-[#e9dfdf] justify-center py-6 px-10 text-center items-center mt-12 rounded-tl-[35px] rounded-br-[35px] shadow-2xl min-h-[340px] w-full card-item-div md1000:min-h-[260px]"
+          className="flex flex-col cursor-pointer bg-[#ccc9ba] justify-center py-6 px-10 text-center items-center mt-12 rounded-tl-[35px] rounded-br-[35px] shadow-2xl min-h-[340px] w-full card-item-div md1000:min-h-[260px]"
         >
           <img src={card.img} alt="box_img" className=" w-[75px] mb-4" />
           <p className=" text-[24px] font-bold uppercase mb-7">{card.title}</p>

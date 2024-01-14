@@ -29,7 +29,7 @@ function Hero() {
 
             <MainButton
               color={`text-white`}
-              bg={`bg-white`}
+              bg={`bg-[#ebca34]`}
               text="our classes"
               goTo="/classes"
             />

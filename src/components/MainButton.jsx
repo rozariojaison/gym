@@ -10,7 +10,7 @@ function MainButton({ color, bg, cN, arrowColor, hover, text, goTo }) {
     <Link
       onClick={goTop}
       to={goTo}
-      className={`text-[15px]  ${color} ${bg} ${cN} text-center pt-[18px] font-[600] bg-[#ebca34] w-[20rem] h-[5.5rem] uppercase hero-cta relative ml-2 ${hover} `}
+      className={`text-[15px]  ${color} ${bg} ${cN} text-center pt-[18px] font-[600] bg-[#000000] w-[20rem] h-[5.5rem] uppercase hero-cta relative ml-2 ${hover} `}
     >
       {text} &nbsp;
       <i className={`fa-solid fa-arrow-right text-[#000000] ${arrowColor}`}></i>
