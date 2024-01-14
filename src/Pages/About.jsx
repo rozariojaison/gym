@@ -32,10 +32,10 @@ function About() {
                 className="w-[21rem] absolute top-[120px] min450:top-[84px] min375:top-[68px]"
               />
 
-              <h2 className="text-[3.6rem] max-w-[53rem] font-bold mb-4">
+              <h2 className="text-[3.6rem] max-w-[53rem] font-bold mb-4 text-white">
                 We Will Give You Strength and Health
               </h2>
-              <p className="text-[#646464] font-medium text-[15px] max-w-[50rem] ">
+              <p className="text-[#e3dabf] font-medium text-[15px] max-w-[50rem] ">
                 At Gymate, we are dedicated to helping you achieve the body of
                 your dreams. Our expert trainers and nutritionists will work
                 with you to create a personalized fitness and nutrition plan
@@ -65,10 +65,10 @@ function About() {
           {/*  */}
           <div className="mt-[10rem]">
             <div className="grid grid-cols-2 grid-rows-2 w-full min620:grid-cols-1">
-              <div className="w-full bg-white h-[43rem] flex flex-col justify-center items-center text-center px-[100px] min800:px-[10px]">
+              <div className="w-full bg-black h-[43rem] flex flex-col justify-center items-center text-center px-[100px] min800:px-[10px]">
                 <img src={Target} alt="target_img" className="w-[9rem]" />
-                <h2 className="text-[36px] font-bold mt-3">Our History</h2>
-                <p className="text-[16px] font-medium text-[#646464] mt-5">
+                <h2 className="text-[36px] font-bold mt-3 text-white">Our History</h2>
+                <p className="text-[16px] font-medium text-[#b8b7b3] mt-5">
                   This is a gym which about 3 years old and Our gym changed mangement
                    about a Year and half ago . We have resently replaced all our equipments .
                 </p>
@@ -82,7 +82,7 @@ function About() {
                 />
               </div>
               {/*  */}
-              <div className="w-full bg-white h-[43rem]">
+              <div className="w-full bg-black h-[43rem]">
                 <img
                   src={Img4}
                   alt="about_img"
@@ -90,10 +90,10 @@ function About() {
                 />
               </div>
               {/*  */}
-              <div className="w-full bg-white h-[43rem] flex flex-col justify-center items-center text-center px-[100px] min800:px-[10px]">
+              <div className="w-full bg-black h-[43rem] flex flex-col justify-center items-center text-center px-[100px] min800:px-[10px]">
                 <img src={Mountain} alt="target_img" className="w-[9rem]" />
-                <h2 className="text-[36px] font-bold mt-3">Our History</h2>
-                <p className="text-[16px] font-medium text-[#646464] mt-5">
+                <h2 className="text-[36px] font-bold mt-3 text-white">Our History</h2>
+                <p className="text-[16px] font-medium text-[#c9b8b8] mt-5">
                 This is a gym which about 3 years old and Our gym changed mangement
                    about a Year and half ago . We have resently replaced all our equipments .
                 </p>

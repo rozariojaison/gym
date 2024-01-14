@@ -26,7 +26,7 @@ function Classes() {
         </div>
 
         {/* boxes 1*/}
-        <div
+        {/*<div
           className={`container gap-12 page-padding py-[10rem] md1000:grid-cols-2 min620:grid-cols-1  grid-cols-3 grid-rows-3 text-left ${
             load ? "grid" : "hidden"
           }`}
@@ -43,7 +43,7 @@ function Classes() {
             trainer="Maria Mich"
             date="Fri: 1:00 pm"
           />
-          <ClassesBox
+          {/*<ClassesBox
             bgImg="mma-bg"
             title="Boxing"
             trainer="John Flex"
@@ -51,7 +51,7 @@ function Classes() {
           />
           <ClassesBox
             bgImg="karate-bg"
-            title="Karate"
+            title="Animal Flow"
             trainer="David Rich"
             date="Sat: 9:00 am"
           />
@@ -63,7 +63,7 @@ function Classes() {
           />
           <ClassesBox
             bgImg="workout-bg"
-            title="Workout"
+            title="Hit Workout"
             trainer="Shawn Ray"
             date="Sun: 10:00 am"
           />
@@ -84,7 +84,7 @@ function Classes() {
         {/* boxes 2*/}
         <div
           className={`container gap-12 page-padding py-[10rem] grid-cols-3 md1000:grid-cols-2 min620:grid-cols-1  grid-rows-3 text-left  ${
-            load ? "hidden" : "grid"
+            load ? "grid"  : "hidden"
           }`}
         >
           <ClassesBox
@@ -95,19 +95,14 @@ function Classes() {
           />
           <ClassesBox
             bgImg="meditaion-bg"
-            title="Meditation"
+            title="Animal Flow"
             trainer="Maria Mich"
             date="Fri: 1:00 pm"
           />
-          <ClassesBox
-            bgImg="mma-bg"
-            title="Boxing"
-            trainer="John Flex"
-            date="Tue: 4:00 pm"
-          />
+       
           <ClassesBox
             bgImg="karate-bg"
-            title="Karate"
+            title="Hit Workout"
             trainer="David Rich"
             date="Sat: 9:00 am"
           />
@@ -141,18 +136,7 @@ function Classes() {
             trainer="Jake Paul"
             date="Mon: 8:00 pm"
           />
-          <ClassesBox
-            bgImg="box-bg"
-            title="Mma"
-            trainer="Becky Lynch"
-            date="Fri: 6:00 am"
-          />
-          <ClassesBox
-            bgImg="yoga-bg"
-            title="Yoga"
-            trainer="Marta Mich"
-            date="Wen: 8:00 am"
-          />
+          
           <ClassesBox
             bgImg="fitness-bg"
             title="Fitness"
@@ -161,7 +145,7 @@ function Classes() {
           />
         </div>
 
-        <button
+        {/*<button
           className="text-[1.5rem] text-white bg-slate-600 px-14 py-6 font-medium uppercase shadow-2xl mb-14"
           onClick={() => {
             loadMore();
@@ -169,7 +153,7 @@ function Classes() {
           }}
         >
           {load ? "show more" : "show less"}
-        </button>
+        </button>*/}
 
         <Footer />
       </section>

@@ -14,12 +14,12 @@ function ClassesBox({ bgImg, title, trainer, date }) {
           <span className="bg-[#ff0336] w-[50px] h-[4px]"></span>
 
           <div className="flex gap-6 mb-14 mt-6 text-[#ffffffe1] text-[1.6rem] font-medium">
-            <p>
+           {/* <p>
               <i className="fa-regular fa-user"></i> {trainer}
             </p>
             <p>
               <i className="fa-regular fa-clock"></i> {date}
-            </p>
+            </p>*/}
           </div>
 
           <MainButton

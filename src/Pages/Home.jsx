@@ -13,7 +13,7 @@ import Trainers from "../components/Trainers/Trainers";
 
 function Home() {
   return (
-    <>
+    < >< div className="bg-[#1d1d1d]">
       <Hero />
       <About />
       <Featured />
@@ -26,6 +26,7 @@ function Home() {
       <Blog />
       <CtaBanner />
       <Footer />
+      </div>
     </>
   );
 }

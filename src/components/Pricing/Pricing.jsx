@@ -12,7 +12,7 @@ function Pricing() {
     <>
       <section id="pricing" className="pricing-section relative bg-black">
         <div className="container page-padding py-[12rem] ">
-          <img src={BgText} className="left-0 absolute" alt="bg_img" />
+          <img src={BgText} className=" w-auto left-0 bg-transparent absolute" alt="bg_img" />
           {/* title div -- */}
           <div className="flex flex-col text-center relative items-center">
             <p className="text-white relative z-10 text-[15px] uppercase font-bold mb-8">
@@ -24,20 +24,20 @@ function Pricing() {
               className="w-[23rem] absolute -top-[10px] "
             />
 
-            <h2 className="text-[3.4rem] font-bold mb-4">
+            <h2 className="text-[3.4rem] font-bold mb-4 text-white">
               Exclusive Pricing Plan
             </h2>
-            <p className="text-[#646464] font-medium text-[15px] ">
+            <p className="text-[#ffffff] font-medium text-[15px] ">
               Gymat an unknown printer took a galley of type and scrambled
               <br /> make a type specimen book.
             </p>
           </div>
           {/* pricing boxes */}
           <div className="flex gap-10 mt-32 relative z-[2] md1000:flex-col md1000:items-center ">
-            <PricingBox img={Img1} du="1 Month" price="2,000" />
-            <PricingBox img={Img2} du="3 Month" price="4,000" />
-            <PricingBox img={Img3} du="6 Month" price="6,000" />
-            <PricingBox img={Img3} du="12 Month"price="10,000" />
+            <PricingBox img={Img1} du="1 Month" price="1,999" />
+            <PricingBox img={Img2} du="3 Month" price="3,999" />
+            <PricingBox img={Img3} du="6 Month" price="5,999" />
+            <PricingBox img={Img3} du="12 Month"price="9,999" />
           </div>
           <img
             src={BgDumbell}

@@ -5,7 +5,7 @@ function Login() {
     <>
       <section className="bg-black">
         <div className="login-banner relative justify-center flex">
-          <h1 className="text-[#ff0336] absolute bottom-[25px] text-[3rem] font-bold">
+          <h1 className="text-[#ebca34] absolute bottom-[25px] text-[3rem] font-bold">
             Contact Us
           </h1>
         </div>
@@ -13,7 +13,7 @@ function Login() {
         <div className="bg-black py-[12rem] page-padding grid grid-cols-2 container gap-10 items-center md1000:grid-cols-1 ">
           {/* first col */}
           <div className="md1000:w-[60%] md1000:flex md1000:flex-col md1000:mx-auto min800:w-[90%] min620:w-full">
-            <h2 className="text-[#ff0336] text-[36px] font-bold leading-[1.2]">
+            <h2 className="text-[#ebca34] text-[36px] font-bold leading-[1.2]">
               We are here for help you! To Shape Your Body.
             </h2>
             <p className="text-[16px] w-[95%] text-[#ffffff] font-medium my-[40px]">
@@ -24,10 +24,10 @@ function Login() {
             </p>
             <div className="grid grid-cols-2 grid-rows-2 gap-y-20 min620:grid-cols-1 min620:mx-auto">
               <div className="flex flex-col relative">
-                <h3 className="text-[2rem] font-bold mb-10 text-[#ff0336]">
+                <h3 className="text-[2rem] font-bold mb-10 text-[#ebca34]">
                  Bengaluru, Karnataka 
                 </h3>
-                <span className="bg-[#ff0336] w-[50px] h-[4px] absolute top-[33px]"></span>
+                <span className="bg-[#ebca34] w-[50px] h-[4px] absolute top-[33px]"></span>
                 <p className="text-[15px] font-medium text-[#ffffff]">
                  <br /> 2nd Floor, Krishnappa Building,
                 <br /> No. 25-117/2
@@ -37,8 +37,8 @@ function Login() {
               </div>
               {/*  */}
               <div className="flex flex-col relative">
-                <h3 className="text-[2rem] font-bold mb-10 text-[#ff0336]">Opening Hours</h3>
-                <span className="bg-[#ff0336] w-[50px] h-[4px] absolute top-[33px]"></span>
+                <h3 className="text-[2rem] font-bold mb-10 text-[#ebca34]">Opening Hours</h3>
+                <span className="bg-[#ebca34] w-[50px] h-[4px] absolute top-[33px]"></span>
                 <div className="text-[15px] font-medium text-[#ffffff] paddind 20px"  >
 
                   <p>Mon to Sta: 6:30 am — 10:00 pm</p>
@@ -49,8 +49,8 @@ function Login() {
               </div>
               {/*  */}
               <div className="flex flex-col relative">
-                <h3 className="text-[2rem] font-bold mb-10 text-[#ff0336]">Information</h3>
-                <span className="bg-[#ff0336] w-[50px] h-[4px] absolute top-[33px]"></span>
+                <h3 className="text-[2rem] font-bold mb-10 text-[#ebca34]">Information</h3>
+                <span className="bg-[#ebca34] w-[50px] h-[4px] absolute top-[33px]"></span>
                 <div className="text-[15px] font-medium text-[#ffffff]">
                   <p> +91 - 9739112127
                     <br /> +91 - 8892573370
@@ -61,13 +61,13 @@ function Login() {
               </div>
               {/*  */}
               <div className="flex flex-col relative">
-                <h3 className="text-[2rem] font-bold mb-10 text-[#ff0336]">Follow Us On</h3>
-                <span className="bg-[#ff0336] w-[50px] h-[4px] absolute top-[33px]"></span>
+                <h3 className="text-[2rem] font-bold mb-10 text-[#ebca34]">Follow Us On</h3>
+                <span className="bg-[#ebca34] w-[50px] h-[4px] absolute top-[33px]"></span>
                 <div className="text-[18px] font-medium text-black flex gap-5"> 
-                 <a href="https://www.facebook.com/nextlevelfitness22"> <i className="fa-brands fa-facebook-f px-[16px] py-[13px] bg-[#f4f4f4] rounded-full cursor-pointer hover:bg-[#ff0336] ease-in duration-200 hover:text-white"></i></a>
-                  <i className="fa-brands fa-twitter p-[13.5px] bg-[#f4f4f4] rounded-full cursor-pointer hover:bg-[#ff0336] ease-in duration-200 hover:text-white"></i>
-                 <a href="https://www.instagram.com/nextlevelfitness.official/"> <i className="fa-brands fa-instagram p-[13.5px] bg-[#f4f4f4] rounded-full cursor-pointer hover:bg-[#ff0336] ease-in duration-200 hover:text-white"></i></a>
-                  <i className="fa-brands fa-pinterest-p p-[13.5px] bg-[#f4f4f4] rounded-full cursor-pointer hover:bg-[#ff0336] ease-in duration-200 hover:text-white"></i>
+                 <a href="https://www.facebook.com/nextlevelfitness22"> <i className="fa-brands fa-facebook-f px-[16px] py-[13px] bg-[#f4f4f4] rounded-full cursor-pointer hover:bg-[#ebca34] ease-in duration-200 hover:text-white"></i></a>
+                  <i className="fa-brands fa-twitter p-[13.5px] bg-[#f4f4f4] rounded-full cursor-pointer hover:bg-[#ebca34] ease-in duration-200 hover:text-white"></i>
+                 <a href="https://www.instagram.com/nextlevelfitness.official/"> <i className="fa-brands fa-instagram p-[13.5px] bg-[#f4f4f4] rounded-full cursor-pointer hover:bg-[#ebca34] ease-in duration-200 hover:text-white"></i></a>
+                  <i className="fa-brands fa-pinterest-p p-[13.5px] bg-[#f4f4f4] rounded-full cursor-pointer hover:bg-[#ebca34] ease-in duration-200 hover:text-white"></i>
                 </div>
               </div>
             </div>
@@ -75,8 +75,8 @@ function Login() {
 
           {/* second col ---*/}
           <form className="flex flex-col pt-[30px] pr-[50px] pb-[50px] pl-[45px] bg-[#000000] relative md1000:w-[65%] md1000:flex md1000:flex-col md1000:mx-auto md1000:mt-14 min800:w-[90%] min620:w-full">
-            <h3 className="text-[28px] font-bold mb-14 text-[#ff0336]">Leave Us Your Info</h3>
-            <span className="bg-[#ff0336] w-[50px] h-[4px] absolute top-[77px]"></span>
+            <h3 className="text-[28px] font-bold mb-14 text-[#ebca34]">Leave Us Your Info</h3>
+            <span className="bg-[#ebca34] w-[50px] h-[4px] absolute top-[77px]"></span>
             <input
               className="w-full py-[12px] px-[20px] h-[51px] text-[14px] border border-solid border-[#e4e4e4] outline-none mb-8"
               placeholder="Full Name *"
@@ -106,7 +106,7 @@ function Login() {
             ></textarea>
             <button
               type="submit"
-              className="text-white bg-[#ff0336] w-fit py-[15px] px-[30px] font-bold text-[14px] uppercase self-center mt-6"
+              className="text-white bg-[#ebca34] w-fit py-[15px] px-[30px] font-bold text-[14px] uppercase self-center mt-6"
             >
               submit now
             </button>

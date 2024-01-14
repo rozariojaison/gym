@@ -7,7 +7,7 @@ import Recent1 from "../images/blogpage/recent1.jpg";
 
 function Blog() {
   return (
-    <>
+    <><div className="bg-[#000000] border-white ">
       <section>
         <div className="login-banner relative justify-center flex">
           <h1 className="text-white absolute bottom-[25px] text-[3rem] font-bold">
@@ -17,8 +17,8 @@ function Blog() {
         {/* blog */}
         <div className="py-[10rem] container gap-16 page-padding grid grid-cols-[64fr_35fr] md1000:grid-cols-1 md1000:gap-32">
           {/* blog */}
-          <div className="flex flex-col gap-28">
-            <BlogBox img={Img1} title="Yoga For Everyone in 2022" />
+          <div className="flex flex-col gap-28 text-white bouder-white ">
+            <BlogBox img={Img1} title=" New Year Offer" />
            {/* <BlogBox
               img={Img2}
               title="Getting Back Into CrossFit After Vacation"
@@ -44,22 +44,22 @@ function Blog() {
             {/* form */}
             <form className="flex">
               <input
-                className="border-solid border-[1px] text-[#444] text-[16px] font-medium h-[60px] py-[5px] px-[20px] w-full rounded-tl-xl rounded-bl-xl outline-none"
+                className="border-solid border-[1px] text-[#907b7b] text-[16px] font-medium h-[60px] py-[5px] px-[20px] w-full rounded-tl-xl rounded-bl-xl outline-none"
                 type="search"
                 placeholder="Search..."
               ></input>
               <button type="submit">
-                <i className="fa-solid fa-magnifying-glass bg-[#ff0336] text-white text-[23px] h-[60px] w-[60px] rounded-br-xl rounded-tr-xl pt-[18px]"></i>
+                <i className="fa-solid fa-magnifying-glass bg-[#933e3e] text-white text-[23px] h-[60px] w-[60px] rounded-br-xl rounded-tr-xl pt-[18px]"></i>
               </button>
             </form>
 
             {/* categories */}
-            <div className="flex flex-col bg-[#f8f8f8] my-[35px] p-[30px]">
-              <p className="text-[18px] text-black font-bold mb-5">
+            <div className="flex flex-col bg-[#232020] my-[35px] p-[30px]">
+              <p className="text-[18px] text-white font-bold mb-5">
                 Categories
               </p>
               <span className="w-[40px] h-[3.5px] bg-[#ff0336]"></span>
-              <ul className="text-[16px] text-[#7e7e7e] font-medium mt-10">
+              <ul className="text-[16px] text-[#d7d0d0] font-medium mt-10">
                 <li className="cursor-pointer flex justify-between border-b border-[#dcd9d9] pb-6 mb-10 hover:text-[#ff0336] ease-in duration-200">
                   <p>
                     <i className="text-[13px]  fa-solid fa-chevron-right"></i>
@@ -111,20 +111,20 @@ function Blog() {
             </div>
             {/* recent posts */}
             
-            <div className="flex flex-col bg-[#f8f8f8] my-[35px] p-[30px]">
-              <p className="text-[18px] text-black font-bold mb-5">
+            <div className="flex flex-col bg-[#000000] my-[35px] p-[30px]">
+              <p className="text-[18px] text-white font-bold mb-5">
                 Recent Posts
               </p>
-              <span className="w-[40px] h-[3.5px] bg-[#ff0336] mb-7"></span>
-              <div className="flex flex-col gap-7">
+              <span className="w-[40px] h-[3.5px] bg-[#ffffff] mb-7"></span>
+              <div className="flex flex-col gap-7 bg-black">
                 {/*  */}
-                <div className="flex gap-8">
+                <div className="flex gap-8 ">
                   <img src={Recent1} alt="recent_img" className="w-[10rem]" />
                   <div className="flex flex-col gap-4 justify-center">
-                    <p className="text-[14px] text-[#646464] font-medium">
+                    <p className="text-[14px] text-[#ffffff] font-medium">
                       28 /  12 /  2023
                     </p>
-                    <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
+                    <p className="text-[16px] text-white hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
                       New Year offer
                     </p>
                   </div>
@@ -133,8 +133,8 @@ function Blog() {
               </div>
             </div>
             {/* popular tags */}
-            <div className="flex flex-col bg-[#f8f8f8] my-[35px] p-[30px]">
-              <p className="text-[18px] text-black font-bold mb-5">
+            {/*<div className="flex flex-col bg-[#000000] my-[35px] p-[30px]">
+              <p className="text-[18px] text-white font-bold mb-5">
                 Popular Tags
               </p>
               <span className="w-[40px] h-[3.5px] bg-[#ff0336] mb-7"></span>
@@ -164,7 +164,7 @@ function Blog() {
                   #Boxing
                 </p>
               </div>
-            </div>
+          </div>*/}
             {/* banner */}
             <div className="blog-banner w-full h-[56rem] relative">
               <p className="absolute text-[34px] font-bold uppercase top-16 left-10 z-[2]">
@@ -182,6 +182,7 @@ function Blog() {
         </div>
         <Footer />
       </section>
+      </div>
     </>
   );
 }

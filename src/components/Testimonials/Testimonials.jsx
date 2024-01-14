@@ -9,13 +9,13 @@ import Logo5 from "../../images/testimonials/logo5.png";
 
 function Testimonials() {
   return (
-    <>
+    <><div className="bg-black">
       {/* testimonials div */}
-      <section className="my-[10rem] mx-auto">
-        <div className="container page-padding">
+      <section className="my-[10rem] mx-auto bg-black">
+        <div className="container page-padding bg-black">
           {/* title */}
-          <div className="text-center relative items-center w-full flex flex-col">
-            <p className="text-white relative z-10 text-[16px] uppercase font-bold -mb-[10.5rem]">
+          <div className="text-center relative items-center w-full flex flex-col bg-[#5c1313]">
+            <p className="text-white  relative z-10 text-[16px] uppercase font-bold -mb-[10.5rem]">
               Testimonials
             </p>
             <img
@@ -26,7 +26,7 @@ function Testimonials() {
           </div>
 
           {/* testimonials wrapper */}
-          <div className="border-[#efefef] mt-[17rem] md1000:mt-[9rem] bg-white border-solid border-[9px] p-[30px] min540:h-[48rem] min375:h-[60rem]">
+          <div className="border-[#000000] mt-[17rem] md1000:mt-[9rem] bg-[#1b1919] border-solid border-[9px] p-[30px] min540:h-[48rem] min375:h-[60rem]">
             <div className="bg-black overflow-x-clip w-full h-[33rem] relative">
               {/* img */}
               <img
@@ -42,18 +42,18 @@ function Testimonials() {
               </div>
 
               {/* buttons */}
-              <div className="flex gap-3 absolute bottom-[25px] right-[35px] z-20 min540:-bottom-[52px] min540:right-[17px]">
+              <div className="flex gap-3 absolute bottom-[25px] right-[35px] z-20 min540:-bottom-[52px] min540:right-[17px] bg-black">
                 <button
                   title="left"
                   style={{ transition: "all 0.2s" }}
-                  className="py-5 px-7 bg-white text-black text-2xl hover:bg-[#FF0336] hover:text-white"
+                  className="py-5 px-7 bg-[#888686] text-black text-2xl hover:bg-[#f8ea53] hover:text-white"
                 >
                   <i className="fa-solid fa-arrow-left"></i>
                 </button>
                 <button
                   title="right"
                   style={{ transition: "all 0.2s" }}
-                  className="py-5 px-7 bg-white text-black text-2xl hover:bg-[#FF0336] hover:text-white"
+                  className="py-5 px-7 bg-[#888686] text-black text-2xl hover:bg-[#f8ea53] hover:text-white"
                 >
                   <i className="fa-solid fa-arrow-right"></i>
                 </button>
@@ -99,6 +99,7 @@ function Testimonials() {
           />
         </div>
       </section>
+      </div>
     </>
   );
 }

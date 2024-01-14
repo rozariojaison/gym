@@ -11,10 +11,10 @@ function Hero() {
         <div className="container-hero">
           {/* hero section */}
           <div
-            className="flex flex-col text-white
+            className="flex flex-col text-[#fffefe]
            absolute hero-text min800:items-center min800:-right-[22rem] min620:-right-[20rem] min800:w-[80%] min540:-right-[17rem] min450:-right-[14rem] min375:-right-[11rem]"
           >
-            <p className="text-black text-[16px] uppercase font-medium relative z-10 pl-16 min800:pl-0 mb-8">
+            <p className="text-black  text-[16px] uppercase font-medium relative z-10 pl-16 min800:pl-0 mb-8">
               find your energy
             </p>
             <img
@@ -28,7 +28,7 @@ function Hero() {
             </h1>
 
             <MainButton
-              color={`text-black`}
+              color={`text-white`}
               bg={`bg-white`}
               text="our classes"
               goTo="/classes"
@@ -41,10 +41,10 @@ function Hero() {
           absolute top-2/4 right-0 items-center min800:hidden"
         >
           <p className="uppercase  text-3xl font-bold tracking-widest">share</p>
-          <span className="w-[35px] bg-[#FF0336] h-[2.5px] mr-6"></span>
+          <span className="w-[35px] bg-[#ebca34] h-[2.5px] mr-6"></span>
           <div className="text-white gap-7 flex mr-7 ">
-            <i className="fa-brands rotate-90 hover:text-[#FF0336] fa-facebook text-3xl cursor-pointer ease-in duration-200 "></i>
-            <i className="fa-brands rotate-90 hover:text-[#FF0336] fa-twitter text-3xl cursor-pointer ease-in duration-200"></i>
+            <i className="fa-brands rotate-90 hover:text-[#1877F2] fa-facebook text-3xl cursor-pointer ease-in duration-200 "></i>
+            <i className="fa-brands rotate-90 hover:text-[#1DA1F2] fa-twitter text-3xl cursor-pointer ease-in duration-200"></i>
             <i className="fa-brands rotate-90 hover:text-[#FF0336]  fa-linkedin-in text-3xl cursor-pointer ease-in duration-200 "></i>
           </div>
         </div>

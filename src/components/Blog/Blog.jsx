@@ -4,7 +4,7 @@ import BlogBox from "./BlogBox";
 function Blog() {
   return (
     <>
-      <section id="blog" className="bg-white ">
+      <section id="blog" className="bg-black ">
         <div className="container page-padding py-[10rem]">
           {/* title div -- */}
           <div className="flex flex-col text-center relative items-center">
@@ -17,15 +17,15 @@ function Blog() {
               className="w-[23rem] absolute -top-[10px]"
             />
 
-            <h2 className="text-[3.4rem] font-bold mb-4">Our Recent News</h2>
-            <p className="text-[#646464] font-medium text-[15px] ">
-              Gymat an unknown printer took a galley of type and scrambled
-              <br /> make a type specimen book.
+            <h2 className="text-[3.4rem] font-bold mb-4 text-white">Our Recent News</h2>
+            <p className="text-[#c1bebe] font-medium text-[15px] ">
+               Vist our site to stay up to date on any new announcement
+              <br /> And upcoming offer
             </p>
           </div>
 
           {/* blog boxes */}
-          <div className="flex gap-6 w-full mt-[5rem] md1200:justify-center flex-wrap">
+          <div className="flex gap-6 w-full mt-[5rem] md1200:justify-center flex-wrap border-[#6a3434]">
             <BlogBox
               bgClass="box1Bg"
               date="28.12.2023"

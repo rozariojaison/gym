@@ -17,15 +17,15 @@ function TrainerBox() {
   };
 
   const trainers = [
-    { img: Trainer1, name: "John Lewis", job: "Yoga Trainer" },
-    { img: Trainer2, name: "Jonathan Doe", job: "Crossfit Trainer" },
+    { img: Trainer1, name: "Gerry1", job: "Yoga Trainer" },
+    { img: Trainer2, name: "Gerry1", job: "Crossfit Trainer" },
     { img: Trainer3, name: "Ana June", job: "Personal Trainer" },
   ];
 
   return (
     <>
       <div
-        className="flex justify-center gap-[5rem] md1200:flex-wrap"
+        className="flex justify-center gap-[5rem] md1200:flex-wrap bg-black"
         style={{ margin: "0 auto" }}
       >
         {trainers.map((train, id) => (
@@ -33,7 +33,7 @@ function TrainerBox() {
             onMouseEnter={hoverBox}
             onMouseLeave={hoverBoxRemove}
             key={id}
-            className="relative cursor-pointer w-[35rem] min450:w-full flex flex-col select-none"
+            className="relative cursor-pointer w-[35rem] min450:w-full flex flex-col select-none bg-black"
           >
             {/* trainer img */}
             <img
@@ -46,13 +46,14 @@ function TrainerBox() {
             />
             {/* trainer bg */}
             <img
-              style={{ transition: "all 0.3s" }}
+              style={{ transition: "all 0.3s ",background:"black" }}
               src={TrainerBg}
               alt="trainer_background"
-              className={`absolute top-[4px] w-full scale-[1] `}
+              className={`absolute top-[4px] w-full scale-[1] bg-gray`}
             />
             {/* trainer description */}
-            <div className="box-desc bg-white w-full text-center shadow-lg z-20 rounded-[6px] px-[20px] py-[30px] absolute -bottom-[31px]">
+            <div className="box-desc bg-white
+             w-full text-center shadow-lg z-20 rounded-[6px] px-[20px] py-[30px] absolute -bottom-[31px]">
               <img
                 alt="shape"
                 src={Shape}

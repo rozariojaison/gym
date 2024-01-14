@@ -9,10 +9,10 @@ function Featured() {
   };
   return (
     <>
-      <section id="featured" className="page-padding py-[12.5rem] bg-white">
+      <section id="featured" className="page-padding py-[12.5rem] bg-black">
         <div className="container">
           {/* title */}
-          <div className="flex flex-col text-center items-center relative ">
+          <div className="flex flex-col text-center items-center relative bg-yellow">
             <p className="font-semibold text-white text-[15px] relative uppercase z-10 ">
               OUR FEATURED CLASS
             </p>
@@ -21,7 +21,7 @@ function Featured() {
               alt="text_bg"
               className="w-[24rem] absolute -top-[10px]"
             />
-            <h2 className="text-[3.6rem] text-black font-bold my-10">
+            <h2 className="text-[3.6rem] text-white font-bold my-10">
               We Are Offering Best Flexible Classes
             </h2>
           </div>
@@ -31,43 +31,43 @@ function Featured() {
               <div className="item-0 ease-in duration-[0.4s] p-6"></div>
               <div className="absolute z-10 bottom-10 left-10">
                 <p className="text-white text-[3rem] font-bold">Cycling</p>
-                <p className="text-white bg-[#FF0336] text-[16px] mt-3 py-1 px-5">
+               {/* <p className="text-white bg-[#FF0336] text-[16px] mt-3 py-1 px-5">
                   Wednesday: 9:00am-10:00am
-                </p>
+                </p>*/}
               </div>
             </div>
 
             <div className="item-1-div relative">
               <div className="item-1 ease-in duration-[0.4s] p-6"></div>
               <div className="absolute z-10 bottom-10 left-10">
-                <p className="text-white text-[3rem] font-bold">Karate</p>
-                <p className="text-white bg-[#FF0336] text-[16px] mt-3 py-1 px-5">
+                <p className="text-white text-[3rem] font-bold">Hit Workout</p>
+               {/* <p className="text-white bg-[#FF0336] text-[16px] mt-3 py-1 px-5">
                   Friday: 10:00am-11:00am
-                </p>
+                </p>*/}
               </div>
             </div>
 
             <div className="item-2-div relative">
               <div className="item-2 ease-in duration-[0.4s] p-6"></div>
               <div className="absolute z-10 bottom-10 left-10">
-                <p className="text-white text-[3rem] font-bold">Power</p>
-                <p className="text-white bg-[#FF0336] text-[16px] mt-3 py-1 px-5">
+                <p className="text-white text-[3rem] font-bold">Power Lifting</p>
+               {/* <p className="text-white bg-[#FF0336] text-[16px] mt-3 py-1 px-5">
                   Saturday: 9:00am-10:00am
-                </p>
+              </p>*/}
               </div>
             </div>
 
             <div className="item-3-div relative">
               <div className="item-3 ease-in duration-[0.4s] p-6"></div>
               <div className="absolute z-10 bottom-10 left-10">
-                <p className="text-white text-[3rem] font-bold">Meditation</p>
-                <p className="text-white bg-[#FF0336] text-[16px] mt-3 py-1 px-5">
+                <p className="text-white text-[3rem] font-bold">Animal Flow</p>
+               {/* <p className="text-white bg-[#FF0336] text-[16px] mt-3 py-1 px-5">
                   Friday: 1:00pm-2:00pm
-                </p>
+            </p>*/}
               </div>
             </div>
 
-            <div className="item-4-div relative">
+            {/*<div className="item-4-div relative">
               <div className="item-4 ease-in duration-[0.4s] p-6"></div>
               <div className="absolute z-10 bottom-10 left-10">
                 <p className="text-white text-[3rem] font-bold">Martial Arts</p>
@@ -75,12 +75,12 @@ function Featured() {
                   Sunday: 6:00pm-7:00pm
                 </p>
               </div>
-            </div>
+          </div>*/}
 
             <div className="item-5-div relative">
               <div className="item-5 ease-in duration-[0.4s] p-6"></div>
               <div className="absolute z-10 bottom-10 left-10">
-                <p className="text-white text-[3rem] font-bold">Workout</p>
+                <p className="text-white text-[3rem] font-bold">Body Building</p>
                 <p className="text-white bg-[#FF0336] text-[16px] mt-3 py-1 px-5">
                   Monday: 4:00pm-5:00pm
                 </p>

@@ -4,8 +4,8 @@ import TrainerBox from "./TrainerBox";
 function Trainers() {
   return (
     <>
-      <section id="team" className="trainers-section">
-        <div className="container page-padding py-[12rem]">
+      <section id="team" className="trainers-section bg-[#161616]">
+        <div className="container page-padding py-[12rem] bg-black">
           {/* title div -- */}
           <div className="flex flex-col items-center text-center relative">
             <p className="text-white relative z-10 text-[16px] uppercase font-bold mb-10">
@@ -17,7 +17,7 @@ function Trainers() {
               className="w-[21rem] absolute -top-[6px]"
             />
 
-            <h2 className="text-[3.4rem] font-bold mb-4">
+            <h2 className="text-[3.4rem] font-bold mb-4 text-white">
               Team Of Expert Coaches
             </h2>
             <p className="text-[#646464] font-medium text-[15px] ">
