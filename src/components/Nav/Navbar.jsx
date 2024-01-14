@@ -55,6 +55,7 @@ function Navbar() {
 
   return (
     <>
+    <Navbar sticky={sticky} />
       <nav
         className={`flex flex-row bg-transparent items-center justify-between py-8 px-12  fixed top-0 left-0 right-0 w-full z-50 ${
           sticky ? "shadow-xl !bg-black" : ""

@@ -10,7 +10,7 @@ function NavList() {
   return (
     
     <>
-  
+      <switch>
       <ul className="flex gap-9 text-white text-[16px] font-medium xl:none">
         <li
           style={{ transition: "all 0.3s" }}
@@ -75,9 +75,9 @@ function NavList() {
           </Link>
         </li>
       </ul>
-  
+      </switch>
     </>
-  
+    
   );
 }
 
