@@ -11,7 +11,7 @@ function ClassesBox({ bgImg, title, trainer, date }) {
         <div className="flex flex-col align-text-bottom h-full w-full z-[2] justify-end">
           <p className="text-white font-bold text-[2.7rem] mb-3">{title}</p>
 
-          <span className="bg-[#ff0336] w-[50px] h-[4px]"></span>
+          <span className="bg-[#ebca34] w-[50px] h-[4px]"></span>
 
           <div className="flex gap-6 mb-14 mt-6 text-[#ffffffe1] text-[1.6rem] font-medium">
            {/* <p>
@@ -23,8 +23,8 @@ function ClassesBox({ bgImg, title, trainer, date }) {
           </div>
 
           <MainButton
-            color={`text-black`}
-            bg={`bg-white`}
+            color={`text-white`}
+            bg={`bg-[#ebca34]`}
             text="join now"
             goTo="/contact"
           />
