@@ -81,9 +81,9 @@ function Featured() {
               <div className="item-5 ease-in duration-[0.4s] p-6"></div>
               <div className="absolute z-10 bottom-10 left-10">
                 <p className="text-white text-[3rem] font-bold">Body Building</p>
-                <p className="text-white bg-[#FF0336] text-[16px] mt-3 py-1 px-5">
+               {/* <p className="text-white bg-[#FF0336] text-[16px] mt-3 py-1 px-5">
                   Monday: 4:00pm-5:00pm
-                </p>
+        </p> */}
               </div>
             </div>
           </div>

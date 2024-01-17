@@ -229,23 +229,24 @@ function Navbar() {
                 </div>
                 {/* contact */}
                 <div className="flex flex-col gap-6 text-amber-50">
-                  <h3 className="text-[2rem] font-bold text-[#ff0336]">Contact Info</h3>
-                  <p href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3886.9685038637863!2d77.6485971!3d13.0376768!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17472d94fd1b%3A0x181154c220fe169d!2sNext%20Level%20Fitness!5e0!3m2!1sen!2sin!4v1704538898405!5m2!1sen!2sin" className="text-[1.6rem] font-medium text-[#ffffff] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
+                  <h3 className="text-[2rem] font-bold text-[#ebca34]">Contact Info</h3>
+                  <p href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3886.9685038637863!2d77.6485971!3d13.0376768!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17472d94fd1b%3A0x181154c220fe169d!2sNext%20Level%20Fitness!5e0!3m2!1sen!2sin!4v1704538898405!5m2!1sen!2sin" className="text-[1.6rem] font-medium text-[#ffffff] hover:text-[#ebca34] cursor-pointer ease-in duration-200">
                       
-                    <i  className="fa-solid fa-location-dot  text-[#ff0336]"></i>
+                    <i  className="fa-solid fa-location-dot  text-[#ebca34]"></i>
                     &nbsp;
+                     
                               2nd Floor, Krishnappa Building,
                               No. 25-117/2
                               Horamavu Agara Rd,
                               Opp. Shilpa Bakery
                   </p>
-                  <p className="text-[1.6rem] font-medium bg-black text-[#ffffff] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
-                    <i className="fa-solid fa-phone text-[#ff0336]"></i>&nbsp;
+                  <p className="text-[1.6rem] font-medium bg-black text-[#ffffff] hover:text-[#ebca34] cursor-pointer ease-in duration-200">
+                    <i className="fa-solid fa-phone text-[#ebca34]"></i>&nbsp;
                     +91 - 9739112127 , 8892573370
                     
                   </p>
-                  <p className="text-[1.6rem] font-medium bg-black text-[#ffffff] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
-                    <i className="fa-solid fa-envelope text-[#ff0336]"></i>
+                  <p className="text-[1.6rem] font-medium bg-black text-[#ffffff] hover:text-[#ebca34] cursor-pointer ease-in duration-200">
+                    <i className="fa-solid fa-envelope text-[#ebca34]"></i>
                     &nbsp; NextLevelFitness@gmail.com
                   </p>
                 </div>
@@ -253,16 +254,23 @@ function Navbar() {
                 <div className="flex flex-col gap-6">
                   <h3 className="text-[2rem] font-bold">Follow Us</h3>
                   <div className="flex gap-5">
+                 
                    <span className="bg-[#1877F2] rounded-full py-[12px] px-[17px] cursor-pointer">
-                    <i  className="fa-brands fa-facebook-f text-[2.2rem] text-white"></i>
+                   <a href="https://www.facebook.com/nextlevelfitness22">
+                    <i  className="fa-brands fa-facebook-f text-[2.2rem] text-white"></i> </a>
                     </span>
                     <span className="bg-[#1DA1F2] rounded-full py-[12px] px-[12px] cursor-pointer">
                       <i className="fa-brands fa-twitter text-[2.2rem] text-white"></i>
                     </span>
-                    <span className="bg-[#ff0336] rounded-full py-[10px] px-[13px] cursor-pointer" onClick={<a href="htps://www.facebook.com/nextlevelfitness22"/>}>
-                    <i  className="fa-brands fa-instagram text-[2.2rem] text-white justify-center">
                    
-                    </i>
+                   
+                    <span className="bg-[#ff0336] rounded-full py-[13px] px-[12px] cursor-pointer " 
+                    > 
+                    <a href="https://www.instagram.com/nextlevelfitness.official/">
+                    <i  className="fa-brands fa-instagram text-[2.2rem] text-white justify-center">
+                    
+                    </i></a>
+                   
                     </span>
                   </div>
                 </div>

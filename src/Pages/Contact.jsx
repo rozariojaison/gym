@@ -1,5 +1,6 @@
 import Footer from "../components/Footer/Footer";
 
+
 function Login() {
   return (
     <>
@@ -63,31 +64,41 @@ function Login() {
               <div className="flex flex-col relative">
                 <h3 className="text-[2rem] font-bold mb-10 text-[#ebca34]">Follow Us On</h3>
                 <span className="bg-[#ebca34] w-[50px] h-[4px] absolute top-[33px]"></span>
-                <div className="text-[18px] font-medium text-black flex gap-5"> 
-                 <a href="https://www.facebook.com/nextlevelfitness22"> <i className="fa-brands fa-facebook-f px-[16px] py-[13px] bg-[#f4f4f4] rounded-full cursor-pointer hover:bg-[#ebca34] ease-in duration-200 hover:text-white"></i></a>
-                  <i className="fa-brands fa-twitter p-[13.5px] bg-[#f4f4f4] rounded-full cursor-pointer hover:bg-[#ebca34] ease-in duration-200 hover:text-white"></i>
-                 <a href="https://www.instagram.com/nextlevelfitness.official/"> <i className="fa-brands fa-instagram p-[13.5px] bg-[#f4f4f4] rounded-full cursor-pointer hover:bg-[#ebca34] ease-in duration-200 hover:text-white"></i></a>
-                  <i className="fa-brands fa-pinterest-p p-[13.5px] bg-[#f4f4f4] rounded-full cursor-pointer hover:bg-[#ebca34] ease-in duration-200 hover:text-white"></i>
+                <div className="text-[18px] font-medium text-white flex gap-5"> 
+                 <a href="https://www.facebook.com/nextlevelfitness22"> <i className="fa-brands fa-facebook-f px-[16px] py-[13px] bg-[#1877F2]  rounded-full cursor-pointer hover:bg-[#ebca34] ease-in duration-200 hover:text-white"></i></a>
+                  <i className="fa-brands fa-twitter p-[13.5px] bg-[#1DA1F2] rounded-full cursor-pointer hover:bg-[#ebca34] ease-in duration-200 hover:text-white"></i>
+                 <a href="https://www.instagram.com/nextlevelfitness.official/"> <i className="fa-brands fa-instagram p-[13.5px] bg-[#ff0336]  rounded-full cursor-pointer hover:bg-[#ebca34] ease-in duration-200 hover:text-white"></i></a>
+                  <i className="fa-brands fa-pinterest-p p-[13.5px] bg-[#d64848] rounded-full cursor-pointer hover:bg-[#ebca34] ease-in duration-200 hover:text-white"></i>
                 </div>
               </div>
             </div>
           </div>
-
+          
+            
+          
           {/* second col ---*/}
-          <form className="flex flex-col pt-[30px] pr-[50px] pb-[50px] pl-[45px] bg-[#000000] relative md1000:w-[65%] md1000:flex md1000:flex-col md1000:mx-auto md1000:mt-14 min800:w-[90%] min620:w-full">
+        
+         <form className="flex flex-col pt-[30px] pr-[50px] pb-[50px] pl-[45px] bg-[#000000] relative md1000:w-[65%] md1000:flex md1000:flex-col md1000:mx-auto md1000:mt-14 min800:w-[90%] min620:w-full" 
+          id ="forma"
+          >
             <h3 className="text-[28px] font-bold mb-14 text-[#ebca34]">Leave Us Your Info</h3>
             <span className="bg-[#ebca34] w-[50px] h-[4px] absolute top-[77px]"></span>
             <input
               className="w-full py-[12px] px-[20px] h-[51px] text-[14px] border border-solid border-[#e4e4e4] outline-none mb-8"
               placeholder="Full Name *"
               type="text"
+              id="name1"
+             
             ></input>
             <input
               className="w-full py-[12px] px-[20px] h-[51px] text-[14px] border border-solid border-[#e4e4e4] outline-none mb-8"
               placeholder="Email Address *"
               type="email"
+              id="emailid"
+           
             ></input>
-            <select className="w-full py-[12px] px-[20px] h-[51px] text-[14px] border border-solid border-[#e4e4e4] outline-none mb-8">
+            <select className="w-full py-[12px] px-[20px] h-[51px] text-[14px] border border-solid border-[#e4e4e4] outline-none mb-8"
+            id="wad">
               <option>Select Class</option>
               <option>Body Building</option>
               <option>Functional Training</option>
@@ -99,20 +110,24 @@ function Login() {
               <option>Group Hit Classes</option>
               <option>Cycling</option>
               <option>other</option>
+         
             </select>
             <textarea
               placeholder="Comment"
               className="w-full py-[12px] px-[20px] h-[140px] text-[14px] border border-solid border-[#e4e4e4] outline-none mb-8"
+              id="msgContent"
+            
             ></textarea>
             <button
               type="submit"
               className="text-white bg-[#ebca34] w-fit py-[15px] px-[30px] font-bold text-[14px] uppercase self-center mt-6"
+              id="submit"
             >
               submit now
             </button>
           </form>
         </div>
-
+        
         {/* map */}
         /*<iframe
           

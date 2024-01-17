@@ -65,12 +65,12 @@ function Login() {
               className="text-[1.7rem] px-8 py-4 mb-10 w-full outline-[#ff0336] "
               placeholder="password"
               type="password"
-              onChange={(e) => setPassword(e.target.value)}
+              onChange={(e) => setEmail(e.target.value)}
             ></input>
 
             <button
               type="submit"
-              className="bg-[#ff0336] text-white py-4 font-medium text-[2rem] w-full mt-10"
+              className="bg-[#ebca34] text-white py-4 font-medium text-[2rem] w-full mt-10"
             >
               Sign In
             </button>
@@ -78,14 +78,14 @@ function Login() {
               <p className="text-white text-[1.5rem]">New to Gymate?</p>
               <Link
                 to="/signup"
-                className="text-[#ff0336] font-bold text-[1.5rem]"
+                className="text-[#ebca34] font-bold text-[1.5rem]"
               >
                 Sign Up
               </Link>
             </div>
             <p className="text-[#ffffffbc] text-[1.4rem] mt-3">
-              <span className="text-[#ff0336]">Test Account</span> -
-              gymate@gymail.com <span className="text-[#ff0336]"> / </span>
+              <span className="text-[#ebca34]">Test Account</span> -
+              gymate@gymail.com <span className="text-[#ebca34]"> / </span>
               testpassword123
             </p>
           </form>
