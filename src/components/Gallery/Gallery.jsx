@@ -8,7 +8,7 @@ function Gallery() {
         <img
           src={BgIcon}
           alt="bg_img"
-          className="absolute top-[30px] right-0"
+          className="absolute top-[30px] right-0 bg-black"
         />
 
         <div className="container page-padding py-[4rem]">

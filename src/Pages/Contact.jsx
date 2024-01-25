@@ -1,7 +1,13 @@
 import Footer from "../components/Footer/Footer";
-
+import { db } from "../firebase";
+import { setDoc, doc } from "firebase/firestore";
+import { collection, addDoc } from "firebase/firestore"; 
+import { initializeApp } from "firebase/app";
+import { getDatabase, ref, push } from "firebase/database";
 
 function Login() {
+  
+ 
   return (
     <>
       <section className="bg-black">
@@ -77,10 +83,11 @@ function Login() {
             
           
           {/* second col ---*/}
-        
+         
          <form className="flex flex-col pt-[30px] pr-[50px] pb-[50px] pl-[45px] bg-[#000000] relative md1000:w-[65%] md1000:flex md1000:flex-col md1000:mx-auto md1000:mt-14 min800:w-[90%] min620:w-full" 
-          id ="forma"
+           id ="collo"
           >
+           
             <h3 className="text-[28px] font-bold mb-14 text-[#ebca34]">Leave Us Your Info</h3>
             <span className="bg-[#ebca34] w-[50px] h-[4px] absolute top-[77px]"></span>
             <input
@@ -121,11 +128,15 @@ function Login() {
             <button
               type="submit"
               className="text-white bg-[#ebca34] w-fit py-[15px] px-[30px] font-bold text-[14px] uppercase self-center mt-6"
-              id="submit"
+              id
             >
               submit now
             </button>
-          </form>
+
+          
+  </form>
+  
+        
         </div>
         
         {/* map */}
@@ -140,6 +151,7 @@ function Login() {
         ></iframe>
         
         <Footer />
+       
       </section>
     </>
   );
