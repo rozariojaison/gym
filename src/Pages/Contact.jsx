@@ -1,12 +1,8 @@
 import Footer from "../components/Footer/Footer";
-import { db } from "../firebase";
-import { setDoc, doc } from "firebase/firestore";
-import { collection, addDoc } from "firebase/firestore"; 
-import { initializeApp } from "firebase/app";
-import { getDatabase, ref, push } from "firebase/database";
+import Foo from "./form/form";
 
 function Login() {
-  
+
  
   return (
     <>
@@ -83,8 +79,8 @@ function Login() {
             
           
           {/* second col ---*/}
-         
-         <form className="flex flex-col pt-[30px] pr-[50px] pb-[50px] pl-[45px] bg-[#000000] relative md1000:w-[65%] md1000:flex md1000:flex-col md1000:mx-auto md1000:mt-14 min800:w-[90%] min620:w-full" 
+          <Foo />
+          {/* <form className="flex flex-col pt-[30px] pr-[50px] pb-[50px] pl-[45px] bg-[#000000] relative md1000:w-[65%] md1000:flex md1000:flex-col md1000:mx-auto md1000:mt-14 min800:w-[90%] min620:w-full" 
            id ="collo"
           >
            
@@ -134,7 +130,7 @@ function Login() {
             </button>
 
           
-  </form>
+  </form>*/}
   
         
         </div>

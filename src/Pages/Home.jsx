@@ -10,7 +10,7 @@ import Hero from "../components/Hero/Hero";
 import Pricing from "../components/Pricing/Pricing";
 import Testimonials from "../components/Testimonials/Testimonials";
 import Trainers from "../components/Trainers/Trainers";
-
+import form from "./form/form";
 function Home() {
   return (
     < >< div className="bg-[#1d1d1d]">
@@ -26,7 +26,7 @@ function Home() {
       <Blog />
       <CtaBanner />
       <Footer />
-      
+  
       
       </div>
     </>
