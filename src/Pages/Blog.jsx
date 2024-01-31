@@ -133,38 +133,7 @@ function Blog() {
               </div>
             </div>
             {/* popular tags */}
-            {/*<div className="flex flex-col bg-[#000000] my-[35px] p-[30px]">
-              <p className="text-[18px] text-white font-bold mb-5">
-                Popular Tags
-              </p>
-              <span className="w-[40px] h-[3.5px] bg-[#ff0336] mb-7"></span>
-              <div className="flex gap-3 text-[16px] text-[#646464] font-medium flex-wrap">
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
-                  #Crossfit
-                </p>
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
-                  #Fitness
-                </p>
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
-                  #Gym
-                </p>
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
-                  #Meditation
-                </p>
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
-                  #Running
-                </p>
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
-                  #Workout
-                </p>
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
-                  #Yoga
-                </p>
-                <p className="bg-white py-[4px] px-[14px] hover:text-[#ff0336] ease-in duration-200 cursor-pointer">
-                  #Boxing
-                </p>
-              </div>
-          </div>*/}
+            
             {/* banner */}
             <div className="blog-banner w-full h-[56rem] relative">
               <p className="absolute text-[34px] font-bold uppercase top-16 left-10 z-[2]">

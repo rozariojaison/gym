@@ -32,18 +32,7 @@ function Blog() {
               title="New Year offer"
               description="Grab the New Year offer before it ends #nextlevelfitness. "
             />
-          {/*<BlogBox
-              bgClass="box2Bg"
-              date="13.09.2022"
-              title="Getting Back Into CrossFit After Vacation"
-              description="Learn how to ease back into your CrossFit routine after a vacation with tips and strategies for success."
-            />
-            <BlogBox
-              bgClass="box3Bg"
-              date="28.06.2022"
-              title="Meet Fitness Ambassador Grace"
-              description="Get to know Grace, a fitness enthusiast and dedicated ambassador who is passionate about helping others reach their fitness goals."
-  />*/}
+        
           </div>
         </div>
       </section>
