@@ -6,13 +6,12 @@ import { getFirestore } from "firebase/firestore";
 import { getPerformance } from "firebase/performance";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyArqUN08p2tDoIZctkZlTudnKI2pSYMLtg",
+ ",
   authDomain: "nextlevelfitnessgy.firebaseapp.com",
   databaseURL: "https://nextlevelfitnessgy-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "nextlevelfitnessgy",
   storageBucket: "nextlevelfitnessgy.appspot.com",
-  messagingSenderId: "76843423139",
-  appId: "1:76843423139:web:b481256ad49e479de77616",
+  de77616",
   measurementId: "G-T364YDX0VN"
 };
 
